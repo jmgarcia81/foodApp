@@ -12,7 +12,7 @@
 <body>
     <header>
         <div>
-            <h1>Food for home</h1>
+            <h1>Food For Home</h1>
             <p>Lorem ipsum...</p>
         </div>
         <div>
@@ -27,32 +27,32 @@
         </div>
 
         <div id="Desayunos" class="cardSlider" onclick="filtrar(this)">
-            <img src="img/desayuno.png" alt="Desayuno">
+            <img src="img/breakfast.svg" alt="Desayuno">
             <p>Desayunos</p>
         </div>
 
         <div id="Ensaladas" class="cardSlider" onclick="filtrar(this)">
-            <img src="img/healthyFood.png" alt="Ensalada">
+            <img src="img/salad.png" alt="Ensalada">
             <p>Ensaladas</p>
         </div>
 
         <div id="Almuerzos" class="cardSlider" onclick="filtrar(this)">
-            <img src="img/platoCombinado.png" alt="Almuerzo">
+            <img src="img/fastfood.svg" alt="Almuerzo">
             <p>Almuerzos</p>
         </div>
 
         <div id="Cena" class="cardSlider" onclick="filtrar(this)">
-            <img src="img/pierna-de-pollo.png" alt="Cena">
+            <img src="img/dinner.svg" alt="Cena">
             <p>Cena</p>
         </div>
 
         <div id="Postres" class="cardSlider" onclick="filtrar(this)">
-            <img src="img/pastel.png" alt="Postre">
+            <img src="img/desert.svg" alt="Postre">
             <p>Postres</p>
         </div>
 
         <div id="Bebidas" class="cardSlider" onclick="filtrar(this)">
-            <img src="img/bebida.png" alt="bebida">
+            <img src="img/bebidas.svg" alt="bebida">
             <p>Bebidas</p>
         </div>
 
@@ -66,12 +66,27 @@
     <section>
         <div class= "foodDishes">
             <div>
-                <img src="https://andreabcm.github.io/Proyecto-final/img/platos/desayuno01.jpg" alt="">
+                <img src="img/foodDishes/desayuno1.jpg" alt="Desayuno de la Casa">
             </div>
             <div class="footText">
                 <p>2.5€</p>
-                <h5>Cerveza</h5>
-                <h6>De la casa</h6>
+                <h5>Desayuno de la Casa</h5>
+                <h6>huevos, pancakes y tocino</h6>
+            </div>
+            <div class="contador">
+                <button class="buttonMinus">-</button>
+                <h5>O</h5>
+                <button class="buttonplus">+</button>
+            </div>
+        </div>
+        
+            <div>
+                <img src="img/foodDishes/ensaladaCesar.jpg" alt="Ensalada menú">
+            </div>
+            <div class="footText">
+                <p>2.5€</p>
+                <h5>Ensalada César</h5>
+                <h6>Con salsa ranch</h6>
             </div>
             <div class="contador">
                 <button class="buttonMinus">-</button>
@@ -80,5 +95,28 @@
             </div>
         </div>
     </section>
+    <footer>
+        <section class="footerSection">
+            
+            <div id="Home" class="navbar" onclick="filtrar(this)">
+                <img src="img/footer/home.svg" alt="Home">
+            </div>
+
+            <div id="Chat" class="navbar" onclick="filtrar(this)">
+                <img src="img/footer/bolsalike.svg" alt="Chat">
+            </div>
+
+            <div id="Bag" class="navbar" onclick="filtrar(this)">
+                <img src="img/footer/bolsa.svg" alt="Bolsa Compra">
+            </div>
+
+            <div id="Like" class="navbar" onclick="filtrar(this)">
+                <img src="img/footer/corazon.svg" alt="Like">
+            </div>
+
+            <div id="User" class="navbar" onclick="filtrar(this)">
+                <img src="img/footer/usuario.svg" alt="User">
+            </div>
+    </footer>
 </body>
 </html>

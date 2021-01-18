@@ -90,3 +90,15 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.footerSection {
+    display: flex;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.navbar img {
+    width: 6vh;
+    margin-bottom: 8px;
+    border: 1px solid red;
+}
