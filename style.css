@@ -9,13 +9,12 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
     padding: 30px;
 }
 
 main {
     overflow: hidden;
-    border: 1px solid red;
+    
 }
 
 h1 {
@@ -34,14 +33,15 @@ p {
 .logo {
     width: 22vw;
     height: 12vw;
-    border: 1px solid red;
+   
 }
 
 .container {
     display: flex;
-    border: 1px solid red;
     margin: 10px;
+    box-shadow: 9px, 9px, 9px, rgb(102, 102, 102);
 }
+    
 
 .cardSlider {
     display: flex;
@@ -53,20 +53,20 @@ p {
     height: 16vh;
     margin: 10px 12px;
     border-radius: 13px;
-    filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.2));
-    border: 1px solid red;
+    filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.5));
+    
 }
 
 .cardSlider img {
     width: 9vh;
     margin-bottom: 8px;
-    border: 1px solid red;
+    
 }
 
 .foodDishes {
-    border: 1px solid red;
-    display: flex;
     justify-content: space-around;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .foodDishes img {
@@ -93,12 +93,11 @@ p {
 
 .footerSection {
     display: flex;
-    border: 1px solid red;
+    justify-content: space-around;
     margin: 10px;
 }
 
 .navbar img {
     width: 6vh;
     margin-bottom: 8px;
-    border: 1px solid red;
 }
