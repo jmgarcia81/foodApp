@@ -1,7 +1,11 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;git add .
+
 }
 
 header{
@@ -10,6 +14,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding: 30px;
+    background-color: rgb(126, 10, 10);
+    position: fixed;
+    
 
 }
 
@@ -38,6 +45,8 @@ p {
     display: flex;
     margin: 10px;
     box-shadow: 9px, 9px, 9px, rgb(102, 102, 102);
+    background-color: violet;
+    
     
 }
 
@@ -66,8 +75,8 @@ p {
 .foodDishes {
     justify-content: space-around;
     display: inline-block;
-    overflow-x: auto;
     white-space: nowrap;
+    
     
 }
 
@@ -124,11 +133,8 @@ footer{
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
     filter: drop-shadow(0px 1px 3px hsl(0, 0%, 35%));
     border-width: 0px;
-    border-style: outset;
-    border-image: initial;
     cursor: pointer;
 }
 
@@ -140,8 +146,6 @@ footer{
 .iconos{
 
     border-width: 0px;
-    border-style: outset;
-    border-image: initial;
     background-color: transparent;
     cursor: alias;
 }
